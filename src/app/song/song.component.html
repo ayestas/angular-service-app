@@ -1,0 +1,23 @@
+<div *ngIf="song" class="card">
+    <div class="card-body">
+        <h3 class="card-title">
+            {{song.name}}
+        </h3>
+        <div class="card-text">
+            <br>
+            Nombre de Canción: 
+            <input type="text" [value]="song.name" class="form-control">
+            <br>
+            Artista:
+            <input type="text" [value]="song.artist" class="form-control">
+            <br>
+            Precio:
+            <input type="text" [value]="song.price" class="form-control">
+            <br>
+            
+        </div>
+        <br>
+        <div>
+        </div>
+    </div>
+</div>

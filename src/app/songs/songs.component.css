@@ -1,0 +1,13 @@
+.heart {
+    color: crimson;
+    display: flex;
+    
+}
+
+.heart:active {
+    background-color: crimson !important;
+    color: #f2f2f2;
+}
+.card {
+    background-color: #c5c5c5;
+}
